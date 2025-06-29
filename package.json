@@ -1,0 +1,39 @@
+{
+  "name": "TestBot",
+  "version": "0.0.1",
+  "description": "動画用",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@gonetone/get-youtube-id-by-url": "^2.0.0",
+    "axios": "^1.10.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "discord.js": "^14.14.0",
+    "@discordjs/rest": "^2.2.0",
+    "expert": "^0.3.2",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "fs": "^0.0.2",
+    "mathjs": "^14.5.2",
+    "mysql2": "^3.14.1",
+    "node-fetch": "^3.3.2",
+    "passport": "^0.7.0",
+    "passport-discord": "^0.1.4",
+    "rss-parser": "^3.13.0",
+    "sequelize": "^6.37.7",
+    "sequelize-cli": "^6.6.3",
+    "sqlite3": "^5.1.7",
+    "yahoo-finance2": "^3.3.6",
+    "youtubei": "^1.6.7"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "keywords": [
+    "node",
+    "glitch"
+  ]
+}
